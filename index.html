@@ -1,171 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <fieldset>
-     <center><img src="image/image.png" alt="image" width="50" height="50">
-        <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION
-GENERAL BUS PASS APPLICATION</h1>
-    </fieldset>
-    </center>
-    <fieldset>
-        <legend><b>Application Details</b></legend>
-        <table cellpadding="5" cellspacing="5">
-            <tr>
-                <td><label for="name">Name</label>
-        <input type="text" id="name" required>
-</td>
-                <td><label for="Father's name"> Father's Name</label>
-        <input type="text" id="Father's Name" required></td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="Date of Birth">Date of Birth</label>
-                    <input type="date" name="date" required></td>
-                <td><label for="Gender">Gender</label>
-                    <input type="radio" id="male" name="Gender" value="male" reqiured>
-                <label for="male">male</label>
-                <input type="radio" id="female" name="Gender" value="female" required>
-                <label for="female">female</label></td>
-            </tr>
-            <tr>
-                <td><label for="Age">Age</label>
-                <input type="text" id="Age" required></td>
-                <td><label for="Adhar">Adhar</label>
-                <input type="text" id="Adhar" required></td>
-            </tr>
-            <tr>
-                <td>
-            <label for="whatsapp No">Whatsapp No</label>
-                <input type="text" id="Whatsapp No" required></td>
-                <td><label for="Email id">age</label>
-                <input type="text" id="age" required></td>
-            </tr>
-            <tr>
-                <td><label for="Photo">Photo</label>
-                <input type="file" id="Photo" required></td>
-            </tr>
-        </table>
+    <div class="container">
+        <div class="item-1">
+            <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="">
+            <h2>All I Need Is a Popsicle</h2>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum</p>
+        </div>
+        <div class="item-2">
+            <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="">
+            <h3>Salmon For Your Skin</h3>
+            <p>Once again,some random text to learn lorem lorem ipsum incidunt ipsum lipsum.</p>
+        </div>
+        <div class="item-3">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+            <h3>The Perfect Sandwich, A Real Classic</h3>
+            <p>Just some random text,lorem ipsum text praesent tincidunt ipsum lipsum</p>
+        </div>
+        <div class="item-4">
+            <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="">
+            <h1>Le French</h1>
+            <p>Lorem lorem lorem ipsum text prasent tincidunt ipsum lipsum.</p>
+        </div>
 
-
-    </fieldset>
-    <fieldset>
-        <legend>Residential Address Details</legend>
-        <table cellpadding="10" cellspacing="10">
-            <tr>
-                <td>
-                    <label for="Appliacant Address">Applicant Address</label>
-                    <textarea name="Applicants Address" id="Applicants Address">
-        
-                    </textarea>
-                </td>
-                <td>
-                    <label for="District">District</label>
-                    <select name="District" id="District">
-                    <option value="Hyderabad">Hyderabad</option>
-                    <option value="Mancherial">Mancherial</option>
-                    <option value="Asifabad">Asifabad</option>
-                    <option value="Karimnagar">Karimnagar</option>
-                </select></td>
-            </tr>
-            <tr>
-                <td><label for="Mandal">Mandal</label>
-                    <select name="Mandal" id="Mandal">
-                    <option value="Hyderabad">Hyderabad</option>
-                    <option value="Mancherial">Mancherial</option>
-                    <option value="Asifabad">Asifabad</option>
-                    <option value="Karimnagar">Karimnagar</option>
-                </select></td>
-                <td><label for="Village">Village</label>
-                    <select name="Village" id="Village">
-                    <option value="Hyderabad">Hyderabad</option>
-                    <option value="Mancherial">Mancherial</option>
-                    <option value="Asifabad">Asifabad</option>
-                    <option value="Karimnagar">Karimnagar</option>
-                </select>
-            </tr>
-            <tr>
-                <td><label for="Pincode">Pincode</label>
-                <input type="text" id="Pincode"></td></tr>
-        </table>
-
-    </fieldset>
-    <fieldset>
-        <legend><b>Pass Type Details</b>
-        </legend>
-        <table cellpadding="10" cellspacing="10">
-            <tr>
-                <td><label for="City">City</label>
-                    <select name="City" id="City">
-                    <option value="Hyderabad">Hyderabad</option>
-                    <option value="Mancherial">Mancherial</option>
-                    <option value="Asifabad">Asifabad</option>
-                    <option value="Karimnagar">Karimnagar</option>
-                </select></td>
-            </tr>
-            <tr>
-                <td><label for="Pass Type">Pass Type</label>
-                    <select  text="select" name="Select" id="Pass Type">
-                    <option value="" disabled selected>Select</option>
-                    <option value="General">General</option>
-                    <option value="Ordinary">Ordinary</option>
-                    <option value="Metro">Metro</option>
-                </select></td>
-            </tr>
-        </table>
-
-    </fieldset>
-    <fieldset>
-        <legend>
-            <b>Mode of Payment & Pass Collection</b>
-        </legend>
-        <table cellpadding="10" cellspacing="10">
-            <tr>
-                <td><label for="Mode of Payment">Mode of Payment</label>
-                    <select  text="select" name="Select" id="Mode of Payment">
-                    <option value="" disabled selected>Select</option>
-                    <option value="online">online</option>
-                    <option value="offline">offline</option>
-                </select>
-
-                </td>
-            <tr>
-                <td><label for="Pass Dilevery Mode">Pass Dilevery Mode</label>
-                    <select  text="select" name="Select" id="Mode of Payment">
-                    <option value="In counter" disabled selected>In counter</option>
-            </tr>
-            <tr>
-                <td><label for="Pass Dilevery Mode">Pass Dilevery Mode</label>
-                    <select  text="select" name="Select" id="Mode of Payment">
-                    <option value="" disabled selected>Select</option>
-                    <option value="kukatpally">kukatpally</option>
-                    <option value="Balanagar">Balanagar</option>
-                    <option value="Madhapur">Madhapur</option>
-                    <option value="Hitech-City">Hitech-City</option>
-                    <option value="Maisammaguda">Maisammaguda</option>
-                    <option value="Secundarabad">Secundarabad</option>
-                    
-
-                </td>
-            </tr>
-        </table>
-    </fieldset>
-    <center><img src="image/captcha.jpeg" alt="">
-        <br>
-      <input type="text" id="enter captcha" placeholder="enter caphca">
-      <br>
-     <button>submit
-     </button>
-      
-        
-        
-
-
-    </center>
+    </div>
+    
 </body>
 </html>
